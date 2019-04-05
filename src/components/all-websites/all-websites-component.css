@@ -1,0 +1,41 @@
+.pagination {
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem !important;
+}
+
+.pagination li {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+}
+.pagination li a {
+  color: #455567;
+  cursor: pointer;
+}
+
+.pagination li.disabled a {
+  cursor: default;
+}
+
+.pagination li.active {
+  background-color: #090a37;
+}
+
+.pagination li.active a {
+  color: #ffff;
+}
+
+.pagination .previous,
+.pagination .next {
+  background-color: #eef2f8;
+}
+
+.pagination li a:focus {
+  outline: none !important;
+}

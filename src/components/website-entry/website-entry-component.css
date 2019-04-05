@@ -1,0 +1,38 @@
+.urlText {
+  border-radius: 10px;
+  border: 1px solid #f2f3fe;
+  box-shadow: inset 0px 0px 0px 0p;
+  color: black;
+  width: 100%;
+}
+input:focus {
+  outline: none !important;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.btn {
+  color: white !important;
+}
+
+.toast {
+  color: white !important;
+}
+
+.toast > .body.info {
+  background: #080c35 !important;
+}
+.urlBox {
+  position: relative;
+}
+.urlText {
+  padding-right: 75px !important;
+}
+#lds-ellipsis {
+  position: absolute !important;
+  right: 20px !important;
+}

@@ -1,0 +1,30 @@
+.websiteDetails {
+  /* float: left;
+  margin: 65px 0 0 30px; */
+}
+.visitWebsite {
+  justify-content: center;
+}
+.upVote {
+  background-color: #080c35;
+  color: white;
+  /* justify-content: center; */
+  text-align: center;
+  cursor: pointer;
+
+  /* box-sizing: border-box; */
+}
+.voteCount,
+.visitWebsite {
+  color: #080c35;
+}
+.voteCount,
+.upVote,
+.visitWebsite {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}

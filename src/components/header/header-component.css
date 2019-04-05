@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+.header {
+  background-color: #080c35;
+  margin: 0;
+  overflow: auto;
+  color: white;
+
+  font-weight: bold;
+}
+.heading {
+  float: left;
+  padding: 20px 0;
+  text-decoration: none;
+}
+.heading a {
+  text-decoration: none;
+  color: white;
+}
+.newButton {
+  float: right;
+  background-color: #ffffff;
+  color: #080c35;
+  font-size: 10px;
+  box-sizing: border-box;
+  padding: 10px 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #080c35;
+}
+
+.heading a:hover {
+  color: #ffffff;
+}

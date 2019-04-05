@@ -1,2 +1,0 @@
-# BeautifulWebsiteFrontEndReact
-Created with CodeSandbox
